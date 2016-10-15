@@ -1,0 +1,46 @@
+<html>
+<head>
+
+	<!-- Title -->
+	<title>Cloud Compiler API: C++ Compiler Example</title>
+
+	<!-- CSS stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	<!-- Javascript scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/src-noconflict/ace.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+
+	<!-- Compiler -->
+	<div class="compiler-container">
+
+		<!-- Labels -->
+		<div id="label">Code</div>
+		<div id="label">Input</div>
+		<div id="label">Output</div>
+
+		<!-- Ace editors -->
+		<textarea id="code" name="code"></textarea>
+		<textarea id="input" name="code"></textarea>
+		<textarea id="output" name="output"></textarea>
+
+		<!-- Buttons -->
+		<div id="characters">Number of characters: 0</div>
+		<div id="submit">Run</div>
+
+		<!-- Compilation details -->
+		<ul id="details">
+			<li id="status">Status:</li>
+			<li id="result">Result:</li>
+			<li id="time">Execution time:</li>
+			<li id="memory">Memory:</li>
+		</ul>
+	</div>
+
+</body>
+</html>
